@@ -5,6 +5,6 @@ function getRandomNumber(min, max) {
 var counter = 0;
 while ( counter <= 10 ) {
   var random = getRandomNumber(10, 100);
-  document.write(random);
+  document.write(random + ' ');
   counter += 1;
 }
